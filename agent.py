@@ -59,7 +59,8 @@ class Agent():
                                     self.alpha * (reward + self.discount * max_val))
 
     def update_alpha(self):
-        self.alpha = pow(self.nr_iter, -0.1)
+        # self.alpha = pow(self.nr_iter, -0.1)
+        self.alpha = 1 / self.nr_iter
 
     def learn(self):
         # get current state
