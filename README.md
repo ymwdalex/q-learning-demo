@@ -17,13 +17,9 @@ python ai_player.py --difficulty 0|1|2 --max-iteration 20
 ```
 
 
-##Challenge
+## Branch q-learng-study
+Branch q-learning-study is for Q-learning teaching purpose. The key function are removed
 
-The challenge for this video is to
-
-* modify the the game world so that it's bigger
-* add more obstacles
-* have the bot start in a different position
 
 ##Credits
-This code is modified from https://github.com/llSourcell/q_learning_demo.git
+This code is modified from https://github.com/llSourcell/q_learning_demo.git. I wrap the agent.py as with better api that Q-learning algorithm can call it easily
